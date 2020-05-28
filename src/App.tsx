@@ -1,12 +1,12 @@
-import * as React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react"
+import logo from "./logo.svg"
+import "./App.css"
 
 interface AppProps {}
 
 function App({}: React.Props<AppProps>) {
   return (
-    <div className={'App'}>
+    <div className={"App"}>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,7 +22,7 @@ function App({}: React.Props<AppProps>) {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
